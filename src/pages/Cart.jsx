@@ -92,7 +92,7 @@ export default function Cart() {
                       className="w-full h-28 object-cover rounded-lg mb-2"
                     />
                     <p className="text-sm">{product.name}</p>
-                    <p className="text-sm text-[var(--color-terracotta)]">₹{item.price}</p>
+                    <p className="text-sm text-[var(--color-terracotta)]">₹{product.price.toLocaleString('en-IN')}</p>
                   </div>
                 ))}
               </div>
