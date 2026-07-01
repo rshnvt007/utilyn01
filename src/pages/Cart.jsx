@@ -64,7 +64,7 @@ export default function Cart() {
 
                   <div className="text-right">
                     <p className="text-[var(--color-terracotta)] font-semibold mb-16">
-                      ${item.price.toFixed(2)}
+                      ₹{item.price}
                     </p>
                     <button
                       onClick={() => removeItem(item.id)}
@@ -92,7 +92,7 @@ export default function Cart() {
                       className="w-full h-28 object-cover rounded-lg mb-2"
                     />
                     <p className="text-sm">{product.name}</p>
-                    <p className="text-sm text-[var(--color-terracotta)]">${product.price.toFixed(2)}</p>
+                    <p className="text-sm text-[var(--color-terracotta)]">₹{item.price}</p>
                   </div>
                 ))}
               </div>
@@ -105,22 +105,22 @@ export default function Cart() {
             <div className="space-y-3 text-sm mb-4 pb-4 border-b border-[var(--color-line)]">
               <div className="flex justify-between">
                 <span className="text-[var(--color-muted)]">Subtotal</span>
-                <span>${subtotal.toFixed(2)}</span>
+                <span>₹{item.price}{subtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-[var(--color-muted)]">White Glove Shipping</span>
-                <span>${shipping.toFixed(2)}</span>
+                <span>₹{shipping.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-[var(--color-muted)]">Estimated Taxes</span>
-                <span>${taxes.toFixed(2)}</span>
+                <span>₹{taxes.toFixed(2)}</span>
               </div>
             </div>
 
             <div className="flex items-start justify-between mb-6">
               <div>
                 <p className="text-[11px] tracking-wide text-[var(--color-muted)] mb-1">TOTAL INVESTMENT</p>
-                <p className="font-display text-3xl font-bold">${total.toFixed(2)}</p>
+                <p className="font-display text-3xl font-bold">₹{total.toFixed(2)}</p>
               </div>
               <span className="bg-[#e8c568] text-[10px] font-semibold tracking-wide px-2.5 py-1 rounded-full mt-1">
                 PREMIUM DELIVERY
