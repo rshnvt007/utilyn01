@@ -10,7 +10,7 @@ export default function Shop() {
       <section className="px-10 pt-4">
         <div className="relative rounded-2xl overflow-hidden h-[300px]">
           <img
-            src="https://picsum.photos/seed/shop-hero/1400/500"
+            src="/images/architectural-background.png"
             alt="Architectural simplicity"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -107,17 +107,17 @@ export default function Shop() {
 
         <div className="grid grid-cols-2 gap-4">
           <img
-            src="https://picsum.photos/seed/theme-chair/400/460"
+            src="/images/lounge-chair.png"
             alt="Nordic Earth chair"
             className="col-span-1 h-72 w-full object-cover rounded-lg"
           />
           <img
-            src="https://picsum.photos/seed/theme-shelf/400/220"
+            src="/images/abstract-painting.png"
             alt="Terracotta minimal shelf"
             className="col-span-1 h-32 w-full object-cover rounded-lg"
           />
           <img
-            src="https://picsum.photos/seed/theme-dining/400/260"
+            src="/images/japandi-dining.png"
             alt="Industrial loft dining"
             className="col-span-2 h-40 w-full object-cover rounded-lg"
           />

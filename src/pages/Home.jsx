@@ -9,7 +9,7 @@ export default function Home() {
       <section className="grid grid-cols-1 md:grid-cols-2">
         <div className="h-[560px] md:h-[720px]">
           <img
-            src="https://picsum.photos/seed/utilyn-hero/900/1000"
+            src="/images/welcome-collage.png"
             alt="Warm interior with vase and curtains"
             className="w-full h-full object-cover"
           />

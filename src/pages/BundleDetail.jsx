@@ -12,7 +12,7 @@ export default function BundleDetail() {
       <section className="px-10 pt-4 grid grid-cols-1 md:grid-cols-[1.6fr_1fr] gap-8">
         <div className="relative h-[520px] rounded-lg overflow-hidden">
           <img
-            src="https://picsum.photos/seed/serene-study/1000/900"
+            src="/images/aura-workbay.png"
             alt="The Serene Study"
             className="w-full h-full object-cover"
           />

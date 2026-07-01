@@ -5,7 +5,7 @@ export const bundleItems = [
     name: 'Artisan Terracotta Vase',
     price: 120,
     description: 'Hand-thrown clay with a raw, matte finish inspired by Mediterranean landscapes.',
-    image: 'https://picsum.photos/seed/terracotta-vase/500/420',
+    image: '/images/ceramic-vase.png',
   },
   {
     id: 'linen-cushions',
@@ -13,7 +13,7 @@ export const bundleItems = [
     name: 'Belgian Linen Cushions',
     price: 85,
     description: 'Textured weave available in Sage, Ochre, and Stone. Set of two.',
-    image: 'https://picsum.photos/seed/linen-cushions/500/420',
+    image: '/images/home-fabric-category.png',
   },
   {
     id: 'task-lamp',
@@ -21,7 +21,7 @@ export const bundleItems = [
     name: 'The Atelier Task Lamp',
     price: 245,
     description: 'Brushed brass with a swivel head and integrated touch-dimming technology.',
-    image: 'https://picsum.photos/seed/task-lamp/500/420',
+    image: '/images/terracotta-table-lamp.png',
   },
 ]
 
@@ -34,7 +34,7 @@ export const cartItems = [
       'Hand-molded stoneware with a matte sandstone finish. A centerpiece designed for architectural dialogue.',
     price: 420,
     qty: 1,
-    image: 'https://picsum.photos/seed/o-vase/300/300',
+    image: '/images/ceramic-vase.png',
   },
   {
     id: 'terracotta-velvet-pair',
@@ -44,7 +44,7 @@ export const cartItems = [
       'Feather-down inserts with sustainable Italian velvet covers. Earthy tones for refined comfort.',
     price: 285,
     qty: 2,
-    image: 'https://picsum.photos/seed/velvet-pair/300/300',
+    image: '/images/home-fabric-category.png',
   },
 ]
 
@@ -53,13 +53,13 @@ export const completeTheAtelier = [
     id: 'stone-taper-holder',
     name: 'Stone Taper Holder',
     price: 65,
-    image: 'https://picsum.photos/seed/taper-holder/300/300',
+    image: '/images/stone-taper-holder.png',
   },
   {
     id: 'raw-linen-throw',
     name: 'Raw Linen Throw',
     price: 120,
-    image: 'https://picsum.photos/seed/linen-throw/300/300',
+    image: '/images/home-fabric-category.png',
   },
 ]
 
@@ -68,13 +68,13 @@ export const similarSets = [
     id: 'midday-parlor',
     setLabel: 'SET 012',
     name: 'The Midday Parlor',
-    image: 'https://picsum.photos/seed/midday-parlor/700/560',
+    image: '/images/mid-century-living-room.png',
   },
   {
     id: 'obsidian-suite',
     setLabel: 'SET 019',
     name: 'The Obsidian Suite',
-    image: 'https://picsum.photos/seed/obsidian-suite/700/560',
+    image: '/images/industrial-living-room.png',
   },
 ]
 
@@ -85,7 +85,7 @@ export const collections = [
     name: 'Earthbound Lounge Set',
     tag: 'Linen, Velvet, Travertine',
     price: '₹84,900',
-    image: 'https://picsum.photos/seed/earthbound-lounge/600/460',
+    image: '/images/japandi-retreat.png',
     cta: 'Add to Collection',
   },
   {
@@ -94,7 +94,7 @@ export const collections = [
     name: 'Sanctuary Bath Bundle',
     tag: 'Spa Essentials',
     price: '₹42,000',
-    image: 'https://picsum.photos/seed/sanctuary-bath/600/460',
+    image: '/images/home-essentials-category.png',
     cta: 'Add to Collection',
   },
   {
@@ -103,7 +103,7 @@ export const collections = [
     name: 'Editorial Accents',
     tag: 'Sculptural Objects',
     price: '₹18,900',
-    image: 'https://picsum.photos/seed/editorial-accents/600/460',
+    image: '/images/home-decor-category.png',
     cta: 'Add+',
   },
   {
@@ -112,7 +112,7 @@ export const collections = [
     name: 'Nocturnal Nest',
     tag: 'Pure Linen',
     price: '₹34,500',
-    image: 'https://picsum.photos/seed/nocturnal-nest/600/460',
+    image: '/images/minimalist-bedroom.png',
     cta: 'Add+',
   },
   {
@@ -121,7 +121,7 @@ export const collections = [
     name: 'Slow Morning Ritual',
     tag: 'Ceramic & Oak',
     price: '₹12,500',
-    image: 'https://picsum.photos/seed/slow-morning/600/460',
+    image: '/images/breakfast-lifestyle.png',
     cta: 'Add+',
   },
   {
@@ -130,7 +130,7 @@ export const collections = [
     name: "The Curator's Desk",
     tag: 'Walnut & Brass',
     price: '₹68,200',
-    image: 'https://picsum.photos/seed/curators-desk/600/460',
+    image: '/images/aura-workbay.png',
     cta: 'Add+',
   },
   {
@@ -139,7 +139,7 @@ export const collections = [
     name: 'Al Fresco Dining',
     tag: 'Rattan & Oak',
     price: '₹1,12,000',
-    image: 'https://picsum.photos/seed/al-fresco/600/460',
+    image: '/images/japandi-dining.png',
     cta: 'Add to Collection',
   },
   {
@@ -148,16 +148,16 @@ export const collections = [
     name: 'Design Library',
     tag: 'Curated Media',
     price: '₹9,800',
-    image: 'https://picsum.photos/seed/design-library/600/460',
+    image: '/images/coffee-table-books.png',
     cta: 'Add+',
   },
 ]
 
 export const categories = [
-  { id: 'home-essentials', name: 'Home essentials', tag: 'Foundations of living', image: 'https://picsum.photos/seed/home-essentials/400/460' },
-  { id: 'home-decor', name: 'Home Decor', tag: 'Curated objects', image: 'https://picsum.photos/seed/home-decor/400/460' },
-  { id: 'lights-lamps', name: 'Lights & lamps', tag: 'Sculptural lighting', image: 'https://picsum.photos/seed/lights-lamps/400/460' },
-  { id: 'home-fabric', name: 'Home fabric', tag: 'Soft architecture', image: 'https://picsum.photos/seed/home-fabric/400/460' },
+  { id: 'home-essentials', name: 'Home essentials', tag: 'Foundations of living', image: '/images/home-essentials-category.png' },
+  { id: 'home-decor', name: 'Home Decor', tag: 'Curated objects', image: '/images/home-decor-category.png' },
+  { id: 'lights-lamps', name: 'Lights & lamps', tag: 'Sculptural lighting', image: '/images/lights-lamps-category.png' },
+  { id: 'home-fabric', name: 'Home fabric', tag: 'Soft architecture', image: '/images/home-fabric-category.png' },
 ]
 
 export const bestsellingBundles = [
@@ -168,7 +168,7 @@ export const bestsellingBundles = [
     name: 'The Artisan Culinary Set',
     price: 420,
     description: 'A discerning selection of 12 essentials designed for the discerning home chef. Including raw copper and hand-thrown ceramics.',
-    image: 'https://picsum.photos/seed/culinary-set/700/460',
+    image: '/images/artisan-culinary-set.png',
   },
   {
     id: 'sanctuary-suite',
@@ -177,7 +177,7 @@ export const bestsellingBundles = [
     name: 'The Sanctuary Suite',
     price: 850,
     description: 'Our signature 800-thread-count Egyptian cotton bedding paired with two Belgian linen throws and artisanal sleep mist.',
-    image: 'https://picsum.photos/seed/sanctuary-suite/700/460',
+    image: '/images/sanctuary-suite.png',
   },
   {
     id: 'gallery-trio',
@@ -186,7 +186,7 @@ export const bestsellingBundles = [
     name: 'The Gallery Trio',
     price: 310,
     description: 'Transform your walls with three limited-edition architectural prints and our signature hand-cast plaster bust.',
-    image: 'https://picsum.photos/seed/gallery-trio/700/460',
+    image: '/images/gallery-trio.png',
   },
 ]
 
