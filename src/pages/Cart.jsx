@@ -17,7 +17,7 @@ export default function Cart() {
   const removeItem = (id) => setItems((prev) => prev.filter((item) => item.id !== id))
 
   const subtotal = items.reduce((sum, item) => sum + item.price * item.qty, 0)
-  const shipping = 45
+  const shipping = 499
   const taxes = Math.round(subtotal * 0.0825 * 100) / 100
   const total = subtotal + shipping + taxes
 
@@ -105,7 +105,7 @@ export default function Cart() {
             <div className="space-y-3 text-sm mb-4 pb-4 border-b border-[var(--color-line)]">
               <div className="flex justify-between">
                 <span className="text-[var(--color-muted)]">Subtotal</span>
-                <span>₹{item.price}{subtotal.toFixed(2)}</span>
+                <span>₹{subtotal.toLocaleString('en-IN')}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-[var(--color-muted)]">White Glove Shipping</span>

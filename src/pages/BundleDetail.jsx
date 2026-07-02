@@ -42,9 +42,9 @@ export default function BundleDetail() {
             <div className="flex items-end justify-between mb-5">
               <div>
                 <p className="text-[11px] tracking-wide text-[var(--color-muted)] mb-1">COMPLETE SET</p>
-                <p className="text-2xl font-semibold text-[var(--color-terracotta)]">$450.00</p>
+                <p className="text-2xl font-semibold text-[var(--color-terracotta)]">₹39,999</p>
               </div>
-              <p className="text-xs text-[var(--color-muted)]">Save $85.00</p>
+              <p className="text-xs text-[var(--color-muted)]">Save ₹7,500</p>
             </div>
 
             <Link
