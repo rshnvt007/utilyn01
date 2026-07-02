@@ -64,7 +64,7 @@ export default function Cart() {
 
                   <div className="text-right">
                     <p className="text-[var(--color-terracotta)] font-semibold mb-16">
-                      ₹{item.price}
+                      ₹{item.price.toLocaleString('en-IN')}
                     </p>
                     <button
                       onClick={() => removeItem(item.id)}
