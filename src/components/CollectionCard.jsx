@@ -22,7 +22,7 @@ export default function CollectionCard({ item }) {
 
       <div className="flex items-start justify-between mb-1">
         <p className="font-display text-lg leading-snug pr-2">{item.name}</p>
-        <p className="text-[var(--color-terracotta)] font-medium whitespace-nowrap">{item.price}</p>
+        <p className="text-[var(--color-terracotta)] font-medium whitespace-nowrap">₹{item.price.toLocaleString("en-IN")}</p>
       </div>
       <p className="text-xs text-[var(--color-muted)] mb-4">{item.tag}</p>
 

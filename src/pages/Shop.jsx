@@ -71,7 +71,7 @@ export default function Shop() {
               <div className="p-5">
                 <div className="flex items-center justify-between mb-1">
                   <p className="text-[11px] tracking-wide text-[var(--color-muted)]">{b.category}</p>
-                  <p className="text-[var(--color-terracotta)] font-semibold">${b.price}</p>
+                  <p className="text-[var(--color-terracotta)] font-semibold">₹{b.price.toLocaleString("en-IN")}</p>
                 </div>
                 <p className="font-display text-lg mb-2">{b.name}</p>
                 <p className="text-[13px] text-[var(--color-muted)] leading-relaxed mb-4">
